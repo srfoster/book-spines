@@ -10,7 +10,7 @@
           (overlay
             (overlay
               (text t 50 'white)
-              (rectangle 400 50 'solid (make-color 0 0 0 200)))
+              (rectangle 500 55 'solid (make-color 0 0 0 200)))
             (rotate 90 spine))))
 
 (no-hotswap me
