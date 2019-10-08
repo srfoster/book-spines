@@ -3,7 +3,8 @@
 (provide (all-from-out "./spines.rkt")
          with-text)
 
-(require "./spines.rkt")
+(require "./spines.rkt"
+         2htdp/image)
 
 (define (with-text t spine)
   (rotate -90
